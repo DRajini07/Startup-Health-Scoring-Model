@@ -6,9 +6,9 @@ This project aims to **predict a composite score** that reflects the overall hea
 
 ## Dataset
 
-The dataset used for this analysis is **Startup_Scoring_Dataset.csv**. It includes the following columns:
+The dataset used for this analysis is `Startup_Scoring_Dataset.csv`. It includes the following columns:
 
-- 'startup_id': Unique identifier for each startup.
+- `startup_id`: Unique identifier for each startup.
 - `team_experience`: Experience level of the startup team.
 - `market_size_million_usd`: Size of the target market in millions of USD.
 - `monthly_active_users`: Number of active users per month.
@@ -47,7 +47,6 @@ The dataset used for this analysis is **Startup_Scoring_Dataset.csv**. It includ
 - The Linear Regression, Ridge, and Lasso models performed exceptionally well on this dataset, achieving R2 scores very close to 1. This suggests a strong linear relationship between the features and the composite score, as defined by the custom formula.
 - The Random Forest and XGBoost models also showed reasonable performance, with R2 scores around 0.75 and 0.85 respectively.
 - The Neural Network model achieved an R2 score of around 0.93, indicating good predictive capability.
-- Feature importance analysis from the tree-based models and coefficient analysis from the linear models provide insights into which features contribute most significantly to the composite score.
 
 ## Conclusion
 
